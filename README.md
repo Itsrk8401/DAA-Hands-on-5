@@ -38,8 +38,9 @@ Heap after push(35): [2, 4, 3, 7, 5, 6, 9, 8, 35]
 ** Process exited - Return Code: 0 **
 
 # Complexity Analysis of Heap Sort: 
-
-Time Complexity: O(N log N)
+Complexity of getting minimum value is: O(1)
+O(1) + O(H) = O(H) For a Complete Binary tree, its height H = O(log N), where N represents total no. of nodes. Overall Complexity of delete operation is O(log N).
+Complexity of getting minimum value is: O(1)
 
 # Advantages of Heap Sort:
 Heaps are used when the highest or lowest order/priority element needs to be removed. They allow quick access to this item in O(1) time. One use of a heap is to implement a priority queue.
