@@ -66,19 +66,24 @@ public class MinHeap<T extends Comparable<T>> {
 
     public static void main(String[] args) {
         ArrayList<Integer> data = new ArrayList<>();
-        data.add(4);
-        data.add(10);
-        data.add(3);
-        data.add(5);
         data.add(1);
+        data.add(4);
+        data.add(6);
+        data.add(2);
+        data.add(5);
+        data.add(3);
+        data.add(9);
+        data.add(8);
+        data.add(7);
+        
 
         MinHeap<Integer> minHeap = new MinHeap<>();
         minHeap.buildMinHeap(data);
 
-        System.out.println("Heap: " + minHeap.heap);  // [1, 4, 3, 10, 5]
+        System.out.println("Minheap: " + minHeap.heap);  // [1, 4, 3, 10, 5]
         System.out.println("Pop: " + minHeap.pop());  // 1
         System.out.println("Heap after pop: " + minHeap.heap);  // [3, 4, 5, 10]
-        minHeap.push(2);
-        System.out.println("Heap after push(2): " + minHeap.heap);  // [2, 4, 3, 10, 5]
+        minHeap.push(35);
+        System.out.println("Heap after push(35): " + minHeap.heap);  // [2, 4, 3, 10, 5]
     }
 }
