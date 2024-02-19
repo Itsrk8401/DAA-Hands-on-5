@@ -13,7 +13,7 @@ Arr[(2*i)+1]	Returns the left child node
 Arr[(2*i)+2]	Returns the right child node
 
 
-# Examples of your heap working. Demonstrating all the functionalities implemented : 
+# Example of heap working. Demonstrating all the functionalities implemented : 
 
 # The ability to initially build the heap (build_min_heap): 
 
