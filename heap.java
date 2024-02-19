@@ -80,10 +80,10 @@ public class MinHeap<T extends Comparable<T>> {
         MinHeap<Integer> minHeap = new MinHeap<>();
         minHeap.buildMinHeap(data);
 
-        System.out.println("Minheap: " + minHeap.heap);  
+        System.out.println("Minheap: " + minHeap.heap);  // [ 1, 2, 3, 4, 5, 6, 9, 8, 7 ]
         System.out.println("Pop: " + minHeap.pop()); 
-        System.out.println("Heap after pop: " + minHeap.heap); 
+        System.out.println("Heap after pop: " + minHeap.heap); // [ 2, 4, 3, 7, 5, 6, 9, 8 ]
         minHeap.push(35);
-        System.out.println("Heap after push(35): " + minHeap.heap); 
+        System.out.println("Heap after push(35): " + minHeap.heap); // [ 2, 4, 3, 7, 5, 6, 9, 8, 35 ]
     }
 }
