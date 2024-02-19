@@ -2,12 +2,12 @@
 
 Implemented a min heap data structure. For the parent and left/right functions use bit manipulation operators with the following heap functionalities:
 
-The ability to initially build the heap (build_min_heap).
-The ability to heapify.
-The ability to get and remove ("pop") the root node from the heap (and of course re-heapify everything).
-The heap should be generic to the type of data (can store floats, int, custom datastructure).
+The ability to initially build the heap (build_min_heap). - Done
+The ability to heapify. - Done
+The ability to get and remove ("pop") the root node from the heap (and of course re-heapify everything). - Done
+The heap should be generic to the type of data (can store floats, int, custom datastructure) - Done
 
-Logic : 
+# Logic : 
 Arr[(i-1)/2]	Returns the parent node
 Arr[(2*i)+1]	Returns the left child node
 Arr[(2*i)+2]	Returns the right child node
@@ -18,6 +18,7 @@ Arr[(2*i)+2]	Returns the right child node
 # The ability to initially build the heap (build_min_heap): 
 
 Input : add([1, 4, 6, 2, 5, 3, 9, 8, 7])
+
 FunctionCall at line 76 -----> minHeap.buildMinHeap(data);
 
 # The ability to heapify:
